@@ -1,0 +1,2 @@
+
+python ../code/main.py --evaluate --batch_size 16 --num_frames 16 --epochs 30 --logname 'script_test' --resume_vision '/mnt/data1/home/sunpengzhan/CF-CAR-github/code/ckpt_reproduce/rgb_roi_new_paper_best.pth.tar' --resume_coord '/mnt/data1/home/sunpengzhan/CF-CAR-github/code/ckpt_reproduce/interaction_new_paper_best.pth.tar' --resume_fusion '/mnt/data1/home/sunpengzhan/CF-CAR-github/code/ckpt_reproduce/concat_fusion_new_paper_best.pth.tar'

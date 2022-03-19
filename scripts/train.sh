@@ -1,0 +1,1 @@
+python ../code/main.py --batch_size 16 --num_frames 16 --epochs 30 --logname 'script_train' --root_frames '/path/to/your_dataset/'
