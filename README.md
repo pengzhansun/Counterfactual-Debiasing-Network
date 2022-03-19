@@ -37,7 +37,7 @@ We empower models the ability of counterfactual analysis so that a more accurate
 
 ## Contributions
 1. We observe that prior knowledge learned from appearance information is mixed with the spurious correlation between action and instance appearance, which badly inhibits the model’s ability of action learning.
-<div align=center><img width = '400' src ="https://github.com/pengzhansun/CF-CAR/blob/main/demo_images/contribution1.png"/></div>
+<div align=center><img width = '500' src ="https://github.com/pengzhansun/CF-CAR/blob/main/demo_images/contribution1.png"/></div>
 
 2. We remove the pure appearance effect from total effect by counterfactual debiasing inference on our novel framework CDN proposed for compositional action recognition.
 
