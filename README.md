@@ -14,8 +14,6 @@ This code base is the pytorch implementation of _Counterfactual Debiasing Infere
 - [Dataset](#dataset)
 - [Model Zoo](#model-zoo)
 - [Getting Started](#getting-started)
-- [Evaluate](#evaluate)
-- [Counterfactual Inference](#counterfactual-inference)
 - [Acknowledgments](#acknowledgments)
 - [Citation](#citation)
 
@@ -23,7 +21,7 @@ This code base is the pytorch implementation of _Counterfactual Debiasing Infere
 ## Introduction
 Recent action recognition models may tend to rely on object appearance as a shortcut and thus fail to sufficiently learn the real action knowledge. 
 
-![](https://github.com/pengzhansun/CF-Compositional-Action-Recognition/blob/main/demo_images/setting_car.png)
+<div align=center><img width = '600' src ="https://github.com/pengzhansun/CF-CAR/blob/main/demo_images/setting_car.png"/></div>
 
 On the one hand, we find that object appearance is the bias which cheats the model to make the wrong prediction because of different action classes it co-appears between the training stage and test stage. On the other hand, the object appearance is a meaningful cue which can help the model to learn the knowledge of action.
 
@@ -35,11 +33,11 @@ There are two disjoint action sets _\{1, 2\}_ and two disjoint object sets _\{A,
 ## Idea
 We empower models the ability of counterfactual analysis so that a more accurate classification result can be gained by comparing factual inference outcome and counterfactual inference outcome.
 
-![](https://github.com/pengzhansun/CF-Compositional-Action-Recognition/blob/main/demo_images/idea.png)
+<div align=center><img width = '800' src ="https://github.com/pengzhansun/CF-CAR/blob/main/demo_images/idea.png"/></div>
 
 ## Contributions
 1. We observe that prior knowledge learned from appearance information is mixed with the spurious correlation between action and instance appearance, which badly inhibits the model’s ability of action learning.
-![](https://github.com/pengzhansun/CF-Compositional-Action-Recognition/blob/main/demo_images/contribution1.png)
+<div align=center><img width = '400' src ="https://github.com/pengzhansun/CF-CAR/blob/main/demo_images/contribution1.png"/></div>
 
 2. We remove the pure appearance effect from total effect by counterfactual debiasing inference on our novel framework CDN proposed for compositional action recognition.
 
@@ -71,8 +69,7 @@ Download [Something-Something Dataset and Something-Else Annotation](https://git
 Download [our models](https://drive.google.com/drive/folders/1nXqJYcXqMQBxgi5y0gvQ2A5DsUou_G2g?usp=sharing) reported on the paper. 
 
 ## Getting Started
-To train, test or conduct counterfactual debiasing inference, please run these [scripts]().
-
+To train, test or conduct counterfactual debiasing inference, please run these [scripts](https://github.com/pengzhansun/CF-CAR/tree/main/scripts).
 
 ## Acknowledgments
 We used parts of code from following repositories:
