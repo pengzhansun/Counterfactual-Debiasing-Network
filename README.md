@@ -63,7 +63,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-Download [Something-Something Dataset and Something-Else Annotation](https://github.com/joaanna/something_else).
+Download [Something-Something Dataset and Something-Else Annotation](https://github.com/joaanna/something_else). Note that we also provide the [annotation per video](https://drive.google.com/file/d/1tNYKIT3bSXyZq-q5-sKHzEibSrzkQF_6/view?usp=sharing) for users with limited computing resources.
 
 ## Model Zoo
 Download [our models](https://drive.google.com/drive/folders/1nXqJYcXqMQBxgi5y0gvQ2A5DsUou_G2g?usp=sharing) reported on the paper. 
