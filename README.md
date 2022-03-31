@@ -1,9 +1,8 @@
-# _Counterfactual Debiasing Inference for Compositional Action Recognition_
+# Counterfactual Debiasing Inference for Compositional Action Recognition
 
-## Write at the begining
 <!-- This codebase is created by Pengzhan Sun, Xunsong Li at UESTC (University of Electronic Science and Technology of China). -->
 
-This code base is the pytorch implementation of _Counterfactual Debiasing Inference for Compositional Action Recognition **(ACM MM'21 poster)**_. This repository is implemented as a fork of [Something-Else](https://github.com/joaanna/something_else)
+This code base is the pytorch implementation of Counterfactual Debiasing Inference for Compositional Action Recognition **(ACM MM'21)**. This repository is implemented as a fork of [Something-Else](https://github.com/joaanna/something_else)
 
 
 - [Introduction](#introduction)
