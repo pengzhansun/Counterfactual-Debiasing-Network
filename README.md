@@ -27,7 +27,7 @@ There are two disjoint action sets _\{1, 2\}_ and two disjoint object sets _\{A,
 ## Method
 We empower models the ability of counterfactual analysis so that a more accurate classification result can be gained by comparing factual inference outcome and counterfactual inference outcome.
 
-<div align=center><img width = '700' src ="https://github.com/pengzhansun/CF-CAR/blob/main/demo_images/idea.png"/></div>
+<div align=center><img width = '600' src ="https://github.com/pengzhansun/CF-CAR/blob/main/demo_images/idea.png"/></div>
 
 - We observe that prior knowledge learned from appearance information is mixed with the spurious correlation between action and instance appearance, which badly inhibits the model’s ability of action learning.
 <div align=center><img width = '400' src ="https://github.com/pengzhansun/CF-CAR/blob/main/demo_images/contribution1.png"/></div>
