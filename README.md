@@ -10,7 +10,7 @@ This code base is the pytorch implementation of Counterfactual Debiasing Inferen
 - [Method](#method)
 - [Requirements](#requirements)
 - [Dataset](#dataset)
-- [Model Zoo](#model-zoo)
+- [Checkpoints](#checkpoints)
 - [Getting Started](#getting-started)
 - [Acknowledgments](#acknowledgments)
 - [Citation](#citation)
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 ## Dataset
 Download [Something-Something Dataset and Something-Else Annotation](https://github.com/joaanna/something_else). Note that we also provide the [annotation per video](https://drive.google.com/file/d/1tNYKIT3bSXyZq-q5-sKHzEibSrzkQF_6/view?usp=sharing) for users with limited computing resources.
 
-## Model Zoo
+## Checkpoints
 Download [our models](https://drive.google.com/drive/folders/1nXqJYcXqMQBxgi5y0gvQ2A5DsUou_G2g?usp=sharing) reported on the paper. 
 
 ## Getting Started
@@ -68,7 +68,7 @@ To train, test or conduct counterfactual debiasing inference, please run these [
 If you use this code repository in your research, please cite this project.
 
 ```
-@inproceedings{sun2021counterfactual,
+@inproceedings{counterfactual2021,
   title={Counterfactual Debiasing Inference for Compositional Action Recognition},
   author={Sun, Pengzhan and Wu, Bo and Li, Xunsong and Li, Wen and Duan, Lixin and Gan, Chuang},
   booktitle={Proceedings of the 29th ACM International Conference on Multimedia},
