@@ -2,16 +2,17 @@
 
 <!-- This codebase is created by Pengzhan Sun, Xunsong Li at UESTC (University of Electronic Science and Technology of China). -->
 
-This code base is the pytorch implementation of Counterfactual Debiasing Inference for Compositional Action Recognition **(ACM MM'21)**. 
-
+This code base is the pytorch implementation of the paper:  
+**Counterfactual Debiasing Inference for Compositional Action Recognition, ACM Multimedia, 2021**  
+*Pengzhan Sun, *Bo Wu, Xunsong Li, Wen Li, Lixin Duan, Chuang Gan
 
 - [Introduction](#introduction)
 - [Task Setting](#task-setting)
 - [Method](#method)
 - [Requirements](#requirements)
 - [Dataset](#dataset)
-- [Checkpoints](#checkpoints)
 - [Getting Started](#getting-started)
+- [Checkpoints](#checkpoints)
 - [Acknowledgments](#acknowledgments)
 - [Citation](#citation)
 
@@ -58,11 +59,11 @@ pip install -r requirements.txt
 ## Dataset
 Download Something-Something Dataset and Something-Else Annotation from [Something-Else repo](https://github.com/joaanna/something_else) (Joaana et al., 2020). Note that we also provide the [annotation per video](https://drive.google.com/file/d/1tNYKIT3bSXyZq-q5-sKHzEibSrzkQF_6/view?usp=sharing) for users with limited computing resources by spliting Something-Else Annotation mentioned above.
 
-## Checkpoints
-Download [our models](https://drive.google.com/drive/folders/1nXqJYcXqMQBxgi5y0gvQ2A5DsUou_G2g?usp=sharing) reported on the paper. 
-
 ## Getting Started
 To train, test or conduct counterfactual debiasing inference, please run these [scripts](https://github.com/pengzhansun/CF-CAR/tree/main/scripts).
+
+## Checkpoints
+Download [our models](https://drive.google.com/drive/folders/1nXqJYcXqMQBxgi5y0gvQ2A5DsUou_G2g?usp=sharing) reported on the paper. 
 
 ## Citation
 If you use this code repository in your research, please cite this project.
