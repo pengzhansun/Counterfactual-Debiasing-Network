@@ -1,4 +1,4 @@
-# Counterfactual Debiasing Inference for Compositional Action Recognition
+## Counterfactual Debiasing Inference for Compositional Action Recognition
 
 <!-- This codebase is created by Pengzhan Sun, Xunsong Li at UESTC (University of Electronic Science and Technology of China). -->
 
